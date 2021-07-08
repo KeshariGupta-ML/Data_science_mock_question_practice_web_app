@@ -1,0 +1,162 @@
+Question
+Explain about K-Nearest Neighbors? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2927/k-nearest-neighbours-geometric-intuition-with-a-toy-example/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Failure cases of KNN?https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2928/failure-cases-of-knn/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+"Define Distance measures: Euclidean(L2) , Manhattan(L1), Minkowski,  Hamming. \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2929/distance-measures-euclideanl2-manhattanl1-minkowski-hamming/3/module-3-foundations-of-natural-language-processing-and-machine-learning"
+What is Cosine Distance & Cosine Similarity? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2930/cosine-distance-cosine-similarity/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+How to measure the effectiveness of k-NN? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2931/how-to-measure-the-effectiveness-of-k-nn/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Limitations of KNN? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2933/knn-limitations/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+How to handle Overfitting and Underfitting in KNN? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2935/overfitting-and-underfitting/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Need for Cross validation? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2936/need-for-cross-validation/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+What is K-fold cross validation? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2937/k-fold-cross-validation/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+What is Time based splitting? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2940/time-based-splitting/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Explain k-NN for regression? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2941/k-nn-for-regression/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Weighted k-NN ? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2942/weighted-k-nn/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+How to build a kd-tree.? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2945/how-to-build-a-kd-tree/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Step to find nearest neighbors using kd-tree? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2946/find-nearest-neighbours-using-kd-tree/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+What is Locality sensitive Hashing (LSH)?(Hashing vs LSH?) \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2949/hashing-vs-lsh/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+LSH for cosine similarity? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2950/lsh-for-cosine-similarity/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+LSH for euclidean distance? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2951/lsh-for-euclidean-distance/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+"In k-means or kNN, we use euclidean distance to calculate the distance between nearest neighbours. Why not manhattan distance ? \t (https://www.analyticsvidhya.com/blog/2017/09/30-questions-test-k-nearest-neighbors-algorithm/)"
+How to test and know whether or not we have overfitting problem? \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/how-to-determine-overfitting-and-underfitting/)
+How is kNN different from k-means clustering? \t (https://stats.stackexchange.com/questions/56500/what-are-the-main-differences-between-k-means-and-k-nearest-neighbours)
+Can you explain the difference between a Test Set and a Validation Set? \t (https://stackoverflow.com/questions/2976452/whats-is-the-difference-between-train-validation-and-test-set-in-neural-netwo)
+How can you avoid overfitting in KNN? \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/how-to-determine-overfitting-and-underfitting/)
+What is Imbalanced and  balanced dataset. \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2958/imbalanced-vs-balanced-dataset/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Define Multi-class classification? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2959/multi-class-classification/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Explain Impact of Outliers? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2962/impact-of-outliers/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+What is Local Outlier Factor? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2963/local-outlier-factor-simple-solution-mean-distance-to-knn/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+"What is k-distance (A), N(A)? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2964/k-distance/3/module-3-foundations-of-natural-language-processing-and-machine-learning"
+"Define reachability-distance(A, B)? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2965/reachability-distanceab/3/module-3-foundations-of-natural-language-processing-and-machine-learning"
+What is Local-reachability-density(A)? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2966/local-reachability-densitya/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Define LOF(A)? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2967/local-outlier-factora/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Impact of Scale & Column standardization? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2968/impact-of-scale-column-standardization/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+What is Interpretability? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2969/interpretability/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Handling categorical and numerical features? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2971/handling-categorical-and-numerical-features/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Handling missing values by imputation? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2977/handling-missing-values-by-imputation/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Bias-Variance tradeoff? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2973/bias-variance-tradeoff/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+What is Accuracy ? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2978/accuracy/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+"Explain about Confusion matrix, TPR, FPR, FNR, TNR?https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2979/confusion-matrix-tpr-fpr-fnr-tnr/3/module-3-foundations-of-natural-language-processing-and-machine-learning"
+"What do you understand  about Precision & recall, F1-score? How would you use it? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2980/precision-and-recall-f1-score/3/module-3-foundations-of-natural-language-processing-and-machine-learning"
+What is the ROC Curve and what is AUC (a.k.a. AUROC)? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2981/receiver-operating-characteristic-curve-roc-curve-and-auc/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+What is Log-loss and how it helps to improve performance? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2982/log-loss/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Explain about R-Squared/ Coefficient of determination. \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2983/r-squaredcoefficient-of-determination/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Explain about Median absolute deviation (MAD) ?Importance of MAD? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2984/median-absolute-deviation-mad/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Define Distribution of errors? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2985/distribution-of-errors/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+"Which is more important to you– model accuracy, or model performance?"
+Can you cite some examples where a false positive is important than a false negative?
+Can you cite some examples where a false negative important than a false positive?
+Can you cite some examples where both false positive and false negatives are equally important?
+What is the most frequent metric to assess model accuracy for classification problems?
+Why is Area Under ROC Curve (AUROC) better than raw accuracy as an out-of- sample evaluation metric?
+What is Bayes Theorem problem? \t https://youtu.be/LadMzl8MaXM  
+More Bayes Theorem problems: \t https://www.math.upenn.edu/~mmerling/math107%20docs/practice%20on%20Bayes%20solutions.pdf http://gtribello.github.io/mathNET/bayes-theorem-problems.html http://wwwf.imperial.ac.uk/~ayoung/m2s1/WorkedExamples1.pdf
+What is Conditional probability? \t  https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2989/conditional-probability/3/module-3-foundations-of-natural-language-processing-and-machine-learnin
+Define Independent vs Mutually exclusive events? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2990/independent-vs-mutually-exclusive-events/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Explain Bayes Theorem with example? \t  https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2991/bayes-theorem-with-examples/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+How to apply Naive Bayes on Text data?  \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2995/naive-bayes-on-text-data/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+What is Laplace/Additive Smoothing? \t  https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2996/laplaceadditive-smoothing/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Explain Log-probabilities for numerical stability? \t  https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2997/log-probabilities-for-numerical-stability/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+In Naive bayes how to handle  Bias and Variance tradeoff? \t  https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/2998/bias-and-variance-tradeoff/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+What Imbalanced data?  \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3000/imbalanced-data/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+What is Outliers and how to handle outliers? \t  https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3001/outliers/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+How to handle Missing values? \t  https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3002/missing-values/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+How to Handling Numerical features (Gaussian NB)  \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3003/handling-numerical-features-gaussian-nb/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Define Multiclass classification.? \t  https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3004/multiclass-classification/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Explain about Logistic regression? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3011/geometric-intuition-of-logistic-regression/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+What is Sigmoid function & Squashing ? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3012/sigmoid-function-squashing/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Explain about Optimization problem in logistic regression.  \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3013/mathematical-formulation-of-objective-function/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Expalain Importance of Weight vector in logistic regression. \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3014/weight-vector/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+L2 Regularization: Overfitting and Underfitting \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3015/l2-regularization-overfitting-and-underfitting/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+L1 regularization and sparsity.  \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3016/l1-regularization-and-sparsity/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+What is Probabilistic Interpretation: Gaussian Naive Bayes ? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3017/probabilistic-interpretation-gaussian-naive-bayes/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Explain about Hyperparameter search: Grid Search and Random Search ? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3019/hyperparameters-and-random-search/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+What is Column Standardization.? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3020/column-standardization/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Explain about Collinearity of features? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3022/collinearity-of-features/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Find Train & Run time space and time complexity of Logistic regression? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3023/testrun-time-space-and-time-complexity/3/module-3-foundations-of-natural-language-processing-and-machine-learning
+Outliers and Loss Functions : \t https://youtu.be/jiOBCCZCtug
+"After analyzing the model, your manager has informed us that your regression model is suffering from multicollinearity. How would you check if he’s true? Without losing any information, can you still build a better model? \t (https://google-interview-hacks.blogspot.in/2017/04/after-analyzing-model-your-manager-has.html)"
+What are the basic assumptions to be made for linear regression? \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/geometric-intuition-1-2-copy-8/)
+What is the difference between stochastic gradient descent (SGD) and gradient descent (GD)? \t (https://stats.stackexchange.com/questions/317675/gradient-descent-gd-vs-stochastic-gradient-descent-sgd)
+"When would you use GD over SDG, and vice-versa? \t (https://elitedatascience.com/machine-learning-interview-questions-answers)"
+How do you decide whether your linear regression model fits the data? \t (https://www.researchgate.net/post/What_statistical_test_is_required_to_assess_goodness_of_fit_of_a_linear_or_nonlinear_regression_equation)
+Is it possible to perform logistic regression with Microsoft Excel? \t (https://www.youtube.com/watch?v=EKRjDurXau0)
+When will you use classification over regression? \t (https://www.quora.com/When-will-you-use-classification-over-regression)
+Why isn't Logistic Regression called Logistic Classification? \t (Refer :https://stats.stackexchange.com/questions/127042/why-isnt-logistic-regression-called-logistic-classification/127044)
+Explain About SVM? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3047/geometric-intution/4/module-4-machine-learning-ii-supervised-learning-models
+What is Hinge Loss? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3050/loss-function-hinge-loss-based-interpretation/4/module-4-machine-learning-ii-supervised-learning-models
+Dual form of SVM formulation.? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3051/dual-form-of-svm-formulation/4/module-4-machine-learning-ii-supervised-learning-models
+What is Kernel trick.? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3052/kernel-trick/4/module-4-machine-learning-ii-supervised-learning-models
+What is Polynomial kernel.? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3053/polynomial-kernel/4/module-4-machine-learning-ii-supervised-learning-models
+What is RBF-Kernel.? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3054/rbf-kernel/4/module-4-machine-learning-ii-supervised-learning-models
+Explain about Domain specific Kernels. ? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3055/domain-specific-kernels/4/module-4-machine-learning-ii-supervised-learning-models
+Find Train and run time complexities for SVM? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3056/train-and-run-time-complexities/4/module-4-machine-learning-ii-supervised-learning-models
+Explain about SVM Regression. ? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3058/svm-regression/4/module-4-machine-learning-ii-supervised-learning-models
+Give some situations where you will use an SVM over a RandomForest Machine Learning algorithm and vice-versa. \t (https://datascience.stackexchange.com/questions/6838/when-to-use-random-forest-over-svm-and-vice-versa)
+What is convex hull ? \t (https://en.wikipedia.org/wiki/Convex_hull)
+What is a large margin classifier?
+Why SVM is an example of a large margin classifier?
+"SVM being a large margin classifier, is it influenced by outliers? (Yes, if C is large, otherwise not)"
+What is the role of C in SVM?
+"In SVM, what is the angle between the decision boundary and theta?"
+What is the mathematical intuition of a large margin classifier?
+What is a kernel in SVM? Why do we use kernels in SVM?
+What is a similarity function in SVM? Why it is named so?
+How are the landmarks initially chosen in an SVM? How many and where?
+Can we apply the kernel trick to logistic regression? Why is it not used in practice then?
+What is the difference between logistic regression and SVM without a kernel? (Only in implementation – one is much more efficient and has good optimization packages)
+How does the SVM parameter C affect the bias/variance trade off? (Remember C = 1/lambda; lambda increases means variance decreases)
+How does the SVM kernel parameter sigma^2 affect the bias/variance trade off?
+"Can any similarity function be used for SVM? (No, have to satisfy Mercer’s theorem)"
+"Logistic regression vs. SVMs: When to use which one? ( Let's say n and m are the number of features and training samples respectively. If n is large relative to m use log. Reg. or SVM with linear kernel, If n is small and m is intermediate, SVM with Gaussian kernel, If n is small and m is massive, Create or add more features then use log. Reg. or SVM without a kernel)"
+What is the difference between supervised and unsupervised machine learning?
+How to Building a decision Tree? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3064/geometric-intuition-of-decision-tree-axis-parallel-hyperplanes/4/module-4-machine-learning-ii-supervised-learning-models
+What is Entropy? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3066/building-a-decision-treeentropy/4/module-4-machine-learning-ii-supervised-learning-models
+What is information Gain ? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3067/building-a-decision-treeinformation-gain/4/module-4-machine-learning-ii-supervised-learning-models
+What is Gini Impurity? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3068/building-a-decision-tree-gini-impurity/4/module-4-machine-learning-ii-supervised-learning-models
+How to Constructing a DT. ? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3069/building-a-decision-tree-constructing-a-dt/4/module-4-machine-learning-ii-supervised-learning-models
+Importance of Splitting numerical features.? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3070/building-a-decision-tree-splitting-numerical-features/4/module-4-machine-learning-ii-supervised-learning-models
+How to handle Overfitting and Underfitting in DT? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3073/overfitting-and-underfitting/4/module-4-machine-learning-ii-supervised-learning-models
+What are Train and Run time complexity for DT? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3074/train-and-run-time-complexity/4/module-4-machine-learning-ii-supervised-learning-models
+How to implement Regression using Decision Trees? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3075/regression-using-decision-trees/4/module-4-machine-learning-ii-supervised-learning-models
+"You are working on a time series data set. You manager has asked you to build a high accuracy model. You start with the decision tree algorithm, since you know it works fairly well on all kinds of data. Later, you tried a time series regression model and got higher accuracy than decision tree model. Can this happen? Why?"
+what is Maximum entropy distirbution?
+Running a binary classification tree algorithm is the easy part. Do you know how does a tree splitting takes place i.e. how does the tree decide which variable to split at the root node and succeeding nodes?
+What are ensembles? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3081/what-are-ensembles/4/module-4-machine-learning-ii-supervised-learning-models
+What is Bootstrapped Aggregation (Bagging) ? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3082/bootstrapped-aggregation-bagging-intuition/4/module-4-machine-learning-ii-supervised-learning-models
+Explain about Random Forest and their construction? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3083/random-forest-and-their-construction/4/module-4-machine-learning-ii-supervised-learning-models
+Explain about Boosting? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3089/boosting-intuition/4/module-4-machine-learning-ii-supervised-learning-models
+"What are Residuals, Loss functions and gradients ? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3090/residuals-loss-functions-and-gradients/4/module-4-machine-learning-ii-supervised-learning-models"
+Explain about Gradient Boosting? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3091/gradient-boosting/4/module-4-machine-learning-ii-supervised-learning-models
+What is Regularization by Shrinkage? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3092/regularization-by-shrinkage/4/module-4-machine-learning-ii-supervised-learning-models
+Explain about XGBoost? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3094/xgboost-boosting-randomization/4/module-4-machine-learning-ii-supervised-learning-models
+Explain about AdaBoost? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3095/adaboost-geometric-intuition/4/module-4-machine-learning-ii-supervised-learning-models
+How do you implement Stacking models? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3096/stacking-models/4/module-4-machine-learning-ii-supervised-learning-models
+Explain about cascading classifiers. ? \t https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/3097/cascading-classifiers/4/module-4-machine-learning-ii-supervised-learning-models
+Google Interview Question + Solution : https://youtu.be/vwYmrKDvnlg
+Explain about Bag of Words? \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/bag-of-words-bow/)
+"Explain about Text Preprocessing: Stemming, Stop-word removal, Tokenization, Lemmatization. \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/text-preprocessing-stemming-stop-word-removal-tokenization-lemmatization/)"
+"Explain about uni-gram, bi-gram, n-grams.? \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/uni-gram-bi-gram-n-grams/)"
+What is tf-idf (term frequency- inverse document frequency) \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/tf-idf-term-frequency-inverse-document-frequency/)
+Why use log in IDF? \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/why-use-log-in-idf/)
+Explain about Word2Vec.? \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/word2vec/)
+"Explain about Avg-Word2Vec, tf-idf weighted Word2Vec? \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/avg-word2vec-tf-idf-weighted-word2vec/)"
+Explain about Multi-Layered Perceptron (MLP)? \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/multi-layered-perceptron-mlp/ )
+How to train a single-neuron model? \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/training-a-single-neuron-model/)
+How to Train an MLP using Chain rule ? \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/training-an-mlp-2/)
+How to Train an MLP using Memoization? \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/training-an-mlp/)
+Explain about Backpropagation algorithm? \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/backpropagation/)
+Describe about Vanishing and Exploding Gradient problem? \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/vanishing-gradient-problem-2/)
+Explain about Bias-Variance tradeoff in neural Networks? \t (https://www.appliedaicourse.com/course/applied-ai-course-online/lessons/bias-variance-tradeoff-23/)
+What is sampled softmax?
+Why is it difficult to train a RNN with SGD?
+How do you tackle the problem of exploding gradients? (By gradient clipping)
+What is the problem of vanishing gradients? (RNN doesn't tend to remember much things from the past)
+How do you tackle the problem of vanishing gradients? (By using LSTM)
+Explain the memory cell of a LSTM. (LSTM allows forgetting of data and using long memory when appropriate.)
+What type of regularization do one use in LSTM?
+"What is the problem with sigmoid during backpropagation? (Very small, between 0.25 and zero.)"
+What is transfer learning?
+What is backpropagation through time? (BPTT)
+What is the difference between LSTM and GRU?
+Explain Gradient Clipping.
+"Adam and RMSProp adjust the size of gradients based on previously seen gradients. Do they inherently perform gradient clipping? If no, why?"

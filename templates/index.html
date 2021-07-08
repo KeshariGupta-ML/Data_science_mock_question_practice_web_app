@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Data Science Mock Interview Sample Question| Practice</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row" align="center">
+        <div class="col-md-12" align="center">
+            <!--    <marquee  behavior="scroll" direction="down" align="center"><h2 align="center">Data Science Sample Practice Question</h2></marquee>-->
+            <h2 align="center">Data Science Self Practice</h2>
+        </div>
+    </div>
+
+
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <div class="row">
+              <div class="col-md-4"><label>Attempted Question:<span id="attempted">1</span></label></div>
+                <div class="col-md-8">
+                    <input class="form-check-input" type="radio" name="question_type" id="inlineRadio1"
+                           value="0" checked>Mock Interview Questions &nbsp&nbsp&nbsp
+                    <input class="form-check-input" type="radio" name="question_type" id="inlineRadio2"
+                           value="1">Applied AI revision Question
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="panel-body" id="question" style="min-height:110px">
+            <div class="col-md-12">
+                Introduce youself and tell me about projects in breif.
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12" align="center">
+            <button type="button" class="btn btn-success" id="refresh">Next Question</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<script>
+  $(document).ready(function(){
+  let mock=1;
+  let revision=1;
+  $('input[type="radio"]').click(function(){
+  if ($(this).is(':checked')) {
+    var type=$(this).val();
+    if (type == 0) {
+    mock=mock+1;
+    $.getJSON("/get_question/"+0,function(data) {
+        $("#attempted").text(mock);
+        $("#question").text(data.result);
+      });
+    }
+    else{
+    $.getJSON("/get_question/"+1,function(data) {
+        revision=revision+1;
+        $("#attempted").text(revision);
+        $("#question").text(data.result);
+      });
+    }
+  }
+});
+  var loading=`<div class="row" align="center" ><img src="static/img/loading2.gif" style="width:auto;height:80px"></div>`;
+  $("#refresh").click(function(){
+    $("#question").html(loading);
+    var ques_type=$('input[name="question_type"]:checked').val();
+    if (ques_type == 0) {
+        mock=mock+1;
+        $.getJSON("/get_question/"+0,function(data) {
+        $("#attempted").text(mock);
+        $("#question").text(data.result);
+      });
+    } else {
+        revision=revision+1;
+        $.getJSON("/get_question/"+1,function(data) {
+        $("#attempted").text(revision);
+        $("#question").text(data.result);
+      });
+    }
+
+
+  });
+});
+
+
+
+</script>
