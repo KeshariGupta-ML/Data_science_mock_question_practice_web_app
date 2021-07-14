@@ -3,7 +3,8 @@ import time
 from flask import Flask,render_template,jsonify
 import pandas as pd
 import numpy as np
-
+import warnings
+# warnings.filterwarnings(action="ignore")
 app = Flask(__name__)
 df=pd.read_csv("assets/mock_interview_questions.csv",header=0)
 df2=pd.read_csv("assets/AppliedAI_revision.csv",header=0)
@@ -26,4 +27,5 @@ def get_question(_type):
         return jsonify(resp), 200
 
 if __name__=="__main__":
-    app.run("localhost","2100",debug=True)
+    # app.run("localhost","2100",debug=True)
+    app.run()
