@@ -72,13 +72,14 @@
   $('input[type="radio"]').click(function(){
   if ($(this).is(':checked')) {
     var type=$(this).val();
+     $('#collapse_ans').collapse('hide');
     if (type == 0) {
     mock=mock+1;
     $.getJSON("/get_question/"+0,function(data) {
         $("#attempted").text(mock);
         $("#question").text(data.result);
         $("#ans_panel").text(data.ans);
-        $('#collapse_ans').collapse('hide');
+
       });
     }
     else{
@@ -86,6 +87,7 @@
         revision=revision+1;
         $("#attempted").text(revision);
         $("#question").text(data.result);
+        $("#ans_panel").text(data.ans);
       });
     }
   }
@@ -93,6 +95,7 @@
   var loading=`<div class="row" align="center" ><img src="{{ url_for('static',filename='/img/loading2.gif') }}" style="width:auto;height:80px"></div>`;
   $("#refresh").click(function(){
     $("#question").html(loading);
+     $('#collapse_ans').collapse('hide');
     var ques_type=$('input[name="question_type"]:checked').val();
     if (ques_type == 0) {
         mock=mock+1;
@@ -100,14 +103,14 @@
         $("#attempted").text(mock);
         $("#question").text(data.result);
         $("#ans_panel").text(data.ans);
-        $('#collapse_ans').collapse('hide');
+
       });
     } else {
         revision=revision+1;
         $.getJSON("/get_question/"+1,function(data) {
         $("#attempted").text(revision);
         $("#question").text(data.result);
-
+         $("#ans_panel").text(data.ans);
       });
     }
 

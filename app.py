@@ -26,10 +26,12 @@ def get_question(_type):
         return jsonify(resp),200
     else:
         rand_int = np.random.randint(1, len(df2))
-        resp = {"result": df2.iloc[rand_int, 0].split(r"\t")[0]}
+        # print(df2.iloc[rand_int, 0].split(r"\t")[1].strip())
+        resp = {"result": df2.iloc[rand_int, 0].split(r"\t")[0],"ans":df2.iloc[rand_int, 0].split(r"\t")[1].strip(" )(")}
         time.sleep(1)
+        # print(resp)
         return jsonify(resp), 200
 
 if __name__=="__main__":
-    # app.run("localhost","2100",debug=True)
-    app.run()
+    app.run("localhost","2100",debug=True)
+    # app.run()
