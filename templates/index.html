@@ -23,7 +23,7 @@
     <div class="panel panel-success">
         <div class="panel-heading">
             <div class="row">
-              <div class="col-md-4"><label>Attempted Question:<span id="attempted">1</span></label></div>
+                <div class="col-md-4"><label>Attempted Question:<span id="attempted">1</span></label></div>
                 <div class="col-md-8">
                     <input class="form-check-input" type="radio" name="question_type" id="inlineRadio1"
                            value="0" checked>Mock Interview Questions &nbsp&nbsp&nbsp
@@ -45,6 +45,20 @@
     <div class="row">
         <div class="col-md-12" align="center">
             <button type="button" class="btn btn-success" id="refresh">Next Question</button>
+            <button type="button" class="btn btn-warning" data-toggle="collapse" href="#collapse_ans">Show Answer
+            </button>
+        </div>
+    </div>
+    <div class="row" style="margin-top:20px">
+        <div class="col-md-12">
+            <div id="collapse_ans" class="panel-collapse collapse">
+            <div class="panel panel-info">
+
+                    <div class="panel-heading"><b>Answer :</b></div>
+
+                    <div class="panel-body" id="ans_panel">Not Answered Yet!!</div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -63,6 +77,8 @@
     $.getJSON("/get_question/"+0,function(data) {
         $("#attempted").text(mock);
         $("#question").text(data.result);
+        $("#ans_panel").text(data.ans);
+        $('#collapse_ans').collapse('hide');
       });
     }
     else{
@@ -83,18 +99,24 @@
         $.getJSON("/get_question/"+0,function(data) {
         $("#attempted").text(mock);
         $("#question").text(data.result);
+        $("#ans_panel").text(data.ans);
+        $('#collapse_ans').collapse('hide');
       });
     } else {
         revision=revision+1;
         $.getJSON("/get_question/"+1,function(data) {
         $("#attempted").text(revision);
         $("#question").text(data.result);
+
       });
     }
 
 
   });
 });
+
+
+
 
 
 

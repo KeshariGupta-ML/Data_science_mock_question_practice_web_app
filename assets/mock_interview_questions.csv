@@ -1,301 +1,333 @@
-Question
-What is the optimization equation of GBDT ?
-Write the formulation of hinge loss ?
-What is the train time complexity of KNN ?
-What is the Test time complexity of KNN in brute force ?
-What is the test time complexity of KNN if we use kd-tree ?
-How will you regularise the KNN model ?
+"What is the optimization equation of GBDT ?",""
+"Write the formulation of hinge loss ?",""
+"What is the train time complexity of KNN ?",""
+"What is the Test time complexity of KNN in brute force ?",""
+"What is the test time complexity of KNN if we use kd-tree ?",""
+"How will you regularise the KNN model ?",""
 "Which of these model are preferable when we have low complexity power ?
 a. SVM
 b. KNN
 c. Linear Regressions
-d. Xgboost"
-What is Laplace smoothing ?
-How will you regularise your naive bayes model ?
-Can we solve dimensionality reduction with SGD?
-Which of these will be doing more computations GD or SGD ?
-"If A is a matrix of size (3,3) and B is a matrix of size (3,4) how many numbers of multiplications that can happen in the operations A*B ?"
-What is the optimization equation of Logistic Regression ?
-How will you calculate the P(x/y=0) in case of gaussian naive baiyes ?
-Write the code for proportional sampling.
-What are hyperparameters in kernel svm ?
-What are hyperparameters in SGD with hinge loss ?
-Is hinge loss differentiable if not how we will modify it so that you apply SGD ?
-Difference between ADAM vs RMSPROP ?
-What is RMSPROP?
-What is ADAM ?
-What is the maximum and minimum values of gradient of the sigmoid function ?
-What is RELU? Is it differentiable ?
-What is F1 score ?
-What is precission and recall ?
-Name a few weight initialization techniques ?
+d. Xgboost",""
+"What is Laplace smoothing ?",""
+"How will you regularise your naive bayes model ?",""
+"Can we solve dimensionality reduction with SGD?",""
+"Which of these will be doing more computations GD or SGD ?",""
+"If A is a matrix of size (3,3) and B is a matrix of size (3,4) how many numbers of multiplications that can happen in the operations A*B ?",""
+"What is the optimization equation of Logistic Regression ?",""
+"How will you calculate the P(x/y=0) in case of gaussian naive baiyes ?",""
+"Write the code for proportional sampling.",""
+"What are hyperparameters in kernel svm ?",""
+"What are hyperparameters in SGD with hinge loss ?",""
+"Is hinge loss differentiable if not how we will modify it so that you apply SGD ?",""
+"Difference between ADAM vs RMSPROP ?",""
+"What is RMSPROP?",""
+"What is ADAM ?",""
+"What is the maximum and minimum values of gradient of the sigmoid function ?",""
+"What is RELU? Is it differentiable ?",""
+"What is F1 score ?",""
+"What is precission and recall ?",""
+"Name a few weight initialization techniques ?",""
 "Which of these will have more numbers of tunable parameters?  
 a. 7,7,512) ⇒ flatern ⇒ Dense(512) 
-b. (7,7,512) ⇒ Conv (512,(7,7))"
-What is overfitting and underfitting ?
-What do you do if a deep learning model is overfitting?
-What is the batch Normalization layer ?
-Write keras code to add a BN layer in an existing network ?
-Number of tunable parameters in the BN layer.
-What is convolution operation?
-Number of parameters in a convolution neural network given in architecture
-What are the inputs required to calculate the average f1 score ?
-What macro average f1 score for 5 class classification problem.
-Is the Calibration classifier required to get probability values for logistic regression.?
-How does kernel sum work in test time ?
-What kind of base learners are preferable in random forest classifiers ?
-How does bootstraping works in RF classification.
-Difference between one vs rest and one vs one.
-Which one is better is one vs rest and one vs one.
-What will happen if gamma increases in RBF kernel sum.
-Explain linear regression.
-What is difference between one hot encoding and a binary bow?
-Kernal svm and linear svm ( SGD classifier with hinge loss). Which has low latency and why.
-Explain bayes theorem.
-How to decrease the test time complexity of a logistic regression model.
-What is the need for sigmoid function in logistic regression.
-Why we need Calibration ?
-What is MAP ? (mean average precision)
-Why do we need gated mechanism in LSTM ?
-What is stratified sampling ? Explain.
-How do you compare two distributions ?
-What will happen to train time of K means of data is very high dimension.
+b. (7,7,512) ⇒ Conv (512,(7,7))",""
+"What is overfitting and underfitting ?",""
+"What do you do if a deep learning model is overfitting?",""
+"What is the batch Normalization layer ?",""
+"Write keras code to add a BN layer in an existing network ?",""
+"Number of tunable parameters in the BN layer.","[gamma weights, beta weights, moving_mean(non-trainable), moving_variance(non-trainable)]"
+"What is convolution operation?",""
+"Number of parameters in a convolution neural network given in architecture",""
+"What are the inputs required to calculate the average f1 score ?",""
+"What macro average f1 score for 5 class classification problem.",""
+"Is the Calibration classifier required to get probability values for logistic regression.?",""
+"How does kernel sum work in test time ?",""
+"What kind of base learners are preferable in random forest classifiers ?",""
+"How does bootstraping works in RF classification.",""
+"Difference between one vs rest and one vs one.",""
+"Which one is better is one vs rest and one vs one.",""
+"What will happen if gamma increases in RBF kernel sum.",""
+"Explain linear regression.",""
+"What is difference between one hot encoding and a binary bow?",""
+"Kernal svm and linear svm ( SGD classifier with hinge loss). Which has low latency and why.",""
+"Explain bayes theorem.",""
+"How to decrease the test time complexity of a logistic regression model.",""
+"What is the need for sigmoid function in logistic regression.",""
+"Why we need Calibration ?",""
+"What is MAP ? (mean average precision)",""
+"Why do we need gated mechanism in LSTM ?",""
+"What is stratified sampling ? Explain.",""
+"How do you compare two distributions ?",""
+"What will happen to train time of K means of data is very high dimension.",""
 "If you have 10mill records with 100dimension each for a clustering task. Which algorithm 
-will you try first and why ?"
-What is matrix Factorization? Explain with an Example.
+will you try first and why ?",""
+"What is matrix Factorization? Explain with an Example.",""
 "Which algorithm will give high time complexity if you have 10million records for a 
-clustering task."
-Difference between GD and SGD.
-Which one will you choose GD or SGD? Why ?
-Why do we need repetitive training of a model ?
-How do you evaluate the model after productionization ?
-What is need for laplace smoothing in N.B
-Explain Gini impurity.
-Explain entropy?
-How to do multi-class classification with random forest ?
-What is k-fold cross validation ?
-What is need for CV ?
-How do you to CV for a test classification problem using random search.
+clustering task.",""
+"Difference between GD and SGD.",""
+"Which one will you choose GD or SGD? Why ?",""
+"Why do we need repetitive training of a model ?",""
+"How do you evaluate the model after productionization ?",""
+"What is need for laplace smoothing in N.B",""
+"Explain Gini impurity.",""
+"Explain entropy?",""
+"How to do multi-class classification with random forest ?",""
+"What is k-fold cross validation ?",""
+"What is need for CV ?",""
+"How do you to CV for a test classification problem using random search.",""
 "Assume We have very high dimension data. Which model will you try and which model 
-will be better in a classification problem."
-What is AUC?
-Tell me one business case where recall is more important than precision.
-Tell me one business case where precision is more important.
-"Can we use accuracy for very much imbalance data? If yes/no , why ?"
-Difference between AUC and accuracy ?
-How do we calculate AUC for a multiclass classification.
-Test the complexity of Kernel sum ?
-Can we use TSNE for dimensionality reduction i.e convest the data n to d dimension.
-What is pearson correlation coefficient ?
-Training time complexity of naive bayes ?
-Numbers of tunable parameters in maxpooling layer ?
-"100,50) -> Embeddylayer (36) -> output shape ?"
-"Number of tunable parameters in embedding layer (36, vocab size = 75)"
-Relation between KNN and kernel sum ?
+will be better in a classification problem.",""
+"What is AUC?",""
+"Tell me one business case where recall is more important than precision.","For rare cancer data modeling, anything that doesn't account for false-negatives is a crime. Recall is a better measure than precision.
+For YouTube recommendations, false-negatives is less of a concern. Precision is better here."
+"Tell me one business case where precision is more important."," if the model predicts that it is a good day, but it is actually a bad day to launch the satellites ( false positive) then the satellites may be destroyed and the cost of damages will be in the billions. This is a case where precision is more important than recall. or Other example : Email Spam detection:This is one of the example where Precision is more important than Recall."
+"Can we use accuracy for very much imbalance data? If yes/no , why ?",""
+"Difference between AUC and accuracy ?",""
+"How do we calculate AUC for a multiclass classification.",""
+"Test the complexity of Kernel sum ?",""
+"Can we use TSNE for dimensionality reduction i.e convest the data n to d dimension.",""
+"What is pearson correlation coefficient ?",""
+"Training time complexity of naive bayes ?",""
+"Numbers of tunable parameters in maxpooling layer ?",""
+"100,50) -> Embeddylayer (36) -> output shape ?",""
+"Number of tunable parameters in embedding layer (36, vocab size = 75)",""
+"Relation between KNN and kernel sum ?",""
 "Which is faster ?
 a. SVC(C=1). Fit(x,y) 
-b. SGD(Log=hinge).fit(x,y)"
-Explain about KS test ?
-What is KL divergence ?
-How QQ plot works ?
-What is the need of confidence interval ?
-How do you find the out outliers in the given data set ?
-Can you name a few sorting algorithms and their complexity ?
-What is the time complexity of ”a in list ( )” ?
-What is the time complexity of “a in set ( ) “?
-What is percentile ?
-What is IQR ?
-How do you calculate the length of the string that is available in the data frame column ?
-Can you explain the dict.get() function ?
-Is list is hash table ?
-Is tuple is hash table ?
-What is parameter sharing in deep learning?
-What will be the alpha value for non support vectors.
-What will be the effect of increasing alpha values in multinomial NB ?
-What is recurrent equation of RNN output function ?
-What is the minimum and maximum value of tanh ?
-How many thresholds we need to check for a real valued features in DT ?
-How do you compute the feature importance in DT ?
-How do you compute the feature importance in SVM ?
-Prove that L1 will given sparsity in the weight vector ?
-"What are L1,L2 regularizers ?"
-What is elastic net ?
-What are the assumption of NB ?
-What are the assumptions of KNN ?
-What are the assumptions of linear regression ?
-Write the optimization equation of linear regression ?
-What is the time complexity to check if a number is prime or not ?
-"Angle between two vectors (2,3,4) (5,7,8)."
-"Angle between the weigh vector of 2x+3y+5=0 and the vector(7,8)."
-"Distance between (7,9) and the line 7x+4y-120=0."
-"Distance between the lines 4x+5y+15=0, 4x+5y-17=0."
+b. SGD(Log=hinge).fit(x,y)",""
+"Explain about KS test ?",""
+"What is KL divergence ?",""
+"How QQ plot works ?",""
+"What is the need of confidence interval ?",""
+"How do you find the out outliers in the given data set ?",""
+"Can you name a few sorting algorithms and their complexity ?",""
+"What is the time complexity of ”a in list ( )” ?",""
+"What is the time complexity of “a in set ( ) “?",""
+"What is percentile ?",""
+"What is IQR ?",""
+"How do you calculate the length of the string that is available in the data frame column ?",""
+"Can you explain the dict.get() function ?",""
+"Is list is hash table ?",""
+"Is tuple is hash table ?",""
+"What is parameter sharing in deep learning?",""
+"What will be the alpha value for non support vectors.",""
+"What will be the effect of increasing alpha values in multinomial NB ?","Alpha is Additive (Laplace/Lidstone) smoothing parameter (0 for no smoothing).
+* chance of overfitting will  be increased when Alpha value is low.
+* chance of underfit will be increased when alpha value is high."
+"What is recurrent equation of RNN output function ?",""
+"What is the minimum and maximum value of tanh ?","-1 <= tanh <=1"
+"How many thresholds we need to check for a real valued features in DT ?","We first sort the numerical feature in ascending order then
+We check through all n-possible splitting criteria and we choose the one which gives us the maximum information gain.
+"
+"How do you compute the feature importance in DT ?","The importance of a feature is computed as the (normalized) total reduction of the criterion brought by that feature. It is also known as the Gini importance."
+"How do you compute the feature importance in SVM ?","Yes, there is attribute coef_ for SVM classifier but it only works for SVM with linear kernel. For other kernels it is not possible because data are transformed by kernel method to another space, which is not related to input space.
+We can't get feature importance and the model is not very interpretable  are especially in Kernel SVM's"
+"Prove that L1 will given sparsity in the weight vector ?",""
+"What are L1,L2 regularizers ?","L1 Regularizer adds “absolute value of magnitude” of coefficient as penalty term to the loss function.
+L2 Regularizer adds “squared magnitude” of coefficient as penalty term to the loss function. 
+The key difference between these techniques is that Lasso shrinks the less important feature’s coefficient to zero thus, removing some feature altogether. So, this works well for feature selection in case we have a huge number of features."
+"What is elastic net ?","Another alternative for regularizer, it says we have to choose either L1 and L2 regularizer why not both. So Elastic net is combination of both L1 and L2 regularizer and for it we have to tune two hyperparameter separately for both regularizer."
+"What are the assumption of NB ?","Assumption in Naïve Bayes is , All features should have conditionally independent."
+"What are the assumptions of KNN ?","Assumption  of KNN is, Neighbours points  behave same. So we find the neighbours of data points then we can tell much about that data points."
+"What are the assumptions of linear regression ?","Assumption of linear regression is, All points should have perfectly or almost linearly separable."
+"Write the optimization equation of linear regression ?",""
+"What is the time complexity to check if a number is prime or not ?","O(n) or O(sqrt(n))"
+"Angle between two vectors (2,3,4) (5,7,8).","Hint: https://www.wikihow.com/Find-the-Angle-Between-Two-Vectors"
+"Angle between the weigh vector of 2x+3y+5=0 and the vector(7,8).",""
+"Distance between (7,9) and the line 7x+4y-120=0.","Hint:  https://www.basic-mathematics.com/distance-between-a-point-and-a-line.html#:~:text=How%20to%20derive%20the%20formula%20to%20find%20the,%28x%202%2C%20y%202%29%20to%20derive%20the%20formula."
+"Distance between the lines 4x+5y+15=0, 4x+5y-17=0.","Distance d between two parallel lines y = mx + c1 and y = mx + c2 is given by
+d = |C1–C2|/√(A2 + B2 )"
 "Which of this hyperplane will classify these two class points 
 a. P: (2,3), (-3,4) N: (-5,7), (-5,-9) 
-b. 4x+5y+7=0, -3y+3x+9=0"
+b. 4x+5y+7=0, -3y+3x+9=0",""
 "Which of the vector pairs perpendicular to each other 
 a. (3,4,5) (-3,-4,5) 
-b. (7,4,6) (-4,-7,-12)"
-How dropout works ?
-Explain the back propagation mechanism in dropout layers ?
+b. (7,4,6) (-4,-7,-12)","* Two vectors A and B are parallel if and only if they are scalar multiples of one another.* 
+* Two vectors A and B are perpendicular if and only if their scalar product is equal to zero."
+"How dropout works ?","Dropout is a technique where randomly selected neurons are ignored during training. They are “dropped-out” randomly. This means that their contribution to the activation of downstream neurons is temporally removed on the forward pass and any weight updates are not applied to the neuron on the backward pass.
+Dropout can be applied to input neurons called the visible layer.
+Dropout rate (p) value should be large and NOT small when we are overfitting with many weights and few data points."
+"Explain the back propagation mechanism in dropout layers ?",""
 "Explain the loss function used in auto encoders assuming the network accepts 
-images ?"
-Numbers of tunable parameters in dropout layer ?
-When F1 score will be zero? And why ?
-What is the need of dimensionality reduction.
+images ?",""
+"Numbers of tunable parameters in dropout layer ?","Tunable parameter in dropout layer is dropout rate."
+"When F1 score will be zero? And why ?","F1 will never be zero, but very near to zero for a bad classifier. If TP or TN is zero then there isn't any need to 
+check F1.
+F1  as the harmonic mean is defined only at positive real numbers. Precision or Recall could be equal 0 in case TP=0. Which provides to undefined result F1=0/0"
+"What is the need of dimensionality reduction.","Dimensionality Reduction helps in data compression, and hence reduced storage space.
+It reduces computation time.
+It also helps remove redundant features, if any.
+Helps to visualize data in low dimension."
 "What happens if we do not normalize our dataset before performing classification 
-using KNN algorithm."
-What is standard normal variate ?
+using KNN algorithm.","A numerical value can have different scales. Based on different scales we are going to get the different distances. To make it same for all we need to normalize."
+"What is standard normal variate ?","The standard normal distribution is one of the forms of the normal distribution. It occurs when a normal random variable has a mean equal to zero and a standard deviation equal to one.
+
+The random variable of a standard normal distribution is known as the standard score or a z-score. It is possible to transform every normal random variable X into a z score using the following formula:
+
+z = (X – μ) / σ"
 "What is the significance of covariance and correlation and in what cases can we not 
-use correlation."
-How do we calculate the distance of a point to a plane.
-When should we choose PCA over t-sne.
+use correlation.","Correlation and covariance are very closely related to each other, and yet they differ a lot. Covariance defines the type of interaction, but correlation defines not only the type but also the strength of this relationship. 
+Due to this reason, correlation is often termed as the special case of covariance. However, if one must choose between the two, most analysts prefer correlation as it remains unaffected by the changes in dimensions, locations, and scale. Also, since it is limited to a range of -1 to +1, it is useful to draw comparisons between variables across domains. 
+However, an important limitation is that both these concepts measure the only linear relationship."
+"How do we calculate the distance of a point to a plane.","The shortest distance from a point to a plane is actually the length of the perpendicular dropped from the point to touch the plane.
+Distance (d)=W.P/||W|| where W is normal to plane at origin"
+"When should we choose PCA over t-sne.","There are many places where we choose PCA over t-SNE
+* Stochasticity of final solution:: PCA is deterministic; t-SNE is not. One gets a nice visualisation and then her colleague gets another visualisation.
+* Interpretability of mapping.
+* Sometime PCA will be useful when we want to retain some percentage of information from data and we can calculate with eigen values."
 "How is my model performing if 
 a. Train error and cross validation errors are high. 
 b. Train error is low and cross validation error is high. 
-c. Both train error and cross validation error are low."
-"How relevant / irrelevant is time based epitting of data in terms of weather 
-forecasting ?"
-How is weighted knn algorithm better simple knn algorithm.
-What is the key idea behind using a kdtree.
-What is the relationship between specificity and false positive rate.
+c. Both train error and cross validation error are low.","a. Train error and cross validation errors are high.--------- Underfitted
+
+b. Train error is low and cross validation error is high. ------------- Overfitted
+
+c. Both train error and cross validation error are low.----------Ideal/ Generalized Model"
+"How relevant / irrelevant is time based spitting of data in terms of weather 
+forecasting ?"," We consider a data to be time based if we have a column time in it. If the data changes with time or the data at present is dependent on the data in the recent past then we will do time based splitting. And weather forcasting is one of it."
+"How is weighted knn algorithm better simple knn algorithm.","Suppose for a given query point, in 5-NN, 2  classes are positive and 3 are negative but data point is so closed to positive point than negative points. But if we predict based on mejority
+https://www.geeksforgeeks.org/weighted-k-nn/"
+"What is the key idea behind using a kdtree.",""
+"What is the relationship between specificity and false positive rate.",""
 "What is the relationship between sensitivity,recall,true positive rate and false 
-negative rate?"
+negative rate?",""
 "What is the alternative to using euclidean distance in Knn when working with high 
-dimensional data ?"
+dimensional data ?",""
 "What are the challenges with time based splitting? How to check whether the train / 
-test split will work or not for given distribution of data ?"
+test split will work or not for given distribution of data ?",""
 "How does outlies effect the performance of a model and name a few techniques to 
-overcome those effects."
-What is reachability distance.
-How do you get probabilities for RF classifier outputs.
-Difference between micro average F1 and macro average F1 for a 3 class classification.
-What is time complexity of building KD tree ?
-What is the local reachability density ?
-What is the need of feature selection ?
-What is the need of encoding categorical or ordinal features.
-What is the intuition behind bias-variance tradeoff ?
-Can we use algorithm for real time classification of emails.
+overcome those effects.",""
+"What is reachability distance.",""
+"How do you get probabilities for RF classifier outputs.",""
+"Difference between micro average F1 and macro average F1 for a 3 class classification.",""
+"What is time complexity of building KD tree ?",""
+"What is the local reachability density ?",""
+"What is the need of feature selection ?",""
+"What is the need of encoding categorical or ordinal features.",""
+"What is the intuition behind bias-variance tradeoff ?",""
+"Can we use algorithm for real time classification of emails.",""
 "What does it mean by precision of a model equal to zero is it possible to have 
-precision equal to 0."
-What does it mean by FPR = TPR = 1 of a model.
-What does AUC = 0.5 signifies.
-"When should we use log loss, AUC score and F1 score."
+precision equal to 0.",""
+"What does it mean by FPR = TPR = 1 of a model.",""
+"What does AUC = 0.5 signifies.",""
+"When should we use log loss, AUC score and F1 score.",""
 "What performance metric should use to evaluate a model that see a very less no.of 
-positive data points as compared to -ve data points."
-What performance metric does t-sne use to optimize its probabilistic function.
-What happens in laplace smoothing in my smoothing factor ‘α’ is too large.
-When to use cosine similarity over euclidean distance.
-"What is fit, transform and fit transform in terms of BOW,tf-idf,word2vector."
+positive data points as compared to -ve data points.",""
+"What performance metric does t-sne use to optimize its probabilistic function.",""
+"What happens in laplace smoothing in my smoothing factor ‘α’ is too large.",""
+"When to use cosine similarity over euclidean distance.",""
+"What is fit, transform and fit transform in terms of BOW,tf-idf,word2vector.",""
 "How do we quantify uncertainty in probability class labels when using KNN model for 
-classifications."
-How do we identify whether the distribution of my train and test is similar or not.
+classifications.",""
+"How do we identify whether the distribution of my train and test is similar or not.",""
 "What does it mean by embedding high dimensional data points to a lower dimension 
-? what are the advantages and disadvantages of it."
-What is the crowding problem w.r.t t-sne.
+? what are the advantages and disadvantages of it.",""
+"What is the crowding problem w.r.t t-sne.",""
 "What is the need of using log probabilities instead of normal probabilities in naive 
-bayes."
-What do you mean by hard margin SVM ?
-What is kernel function in svm ?
-Why do we call an svm a maximum margin classifier ?
-Is svm affected by outliers ?
-What is locality sensitive hashing ?
-What is sigmoid function? What is its range ?
-Instead of sigmoid function can we use any other function in LR?
-Why is accuracy not a good measure for classification problem ?
-How to deal with multiclass classification problem using logistic regression ?
-Can linear regression be used for classification purpose ?
-What is the use of ROC curve ?
-"When EDA should be performed, before or after splitting data? Why ?"
-How k-nn++ is different from k-means clustering ?
-Where ensemble techniques might be useful ?
-What is feature forward selection ?
-What is feature backward selection ?
-What is type 1 & type 2 error ?
-What is multicollinearity ?
-What is eigenvalue & eigenvectors ?
-What is A/B testing
-How to split data which has temporal nature.
-What is response encoding of categorical features ?
-What is the binning of continuous random variables.
-Regularization parameter in dual form of SVM ?
-What is the difference between sigmoid and softmax ?
+bayes.",""
+"What do you mean by hard margin SVM ?",""
+"What is kernel function in svm ?",""
+"Why do we call an svm a maximum margin classifier ?",""
+"Is svm affected by outliers ?",""
+"What is locality sensitive hashing ?",""
+"What is sigmoid function? What is its range ?",""
+"Instead of sigmoid function can we use any other function in LR?",""
+"Why is accuracy not a good measure for classification problem ?",""
+"How to deal with multiclass classification problem using logistic regression ?",""
+"Can linear regression be used for classification purpose ?",""
+"What is the use of ROC curve ?",""
+"When EDA should be performed, before or after splitting data? Why ?",""
+"How k-mean++ is different from k-means clustering ?","K-mean clustering problem has a problem of initialization sensitivity. Where Kmean++ has a smart technique to initialize centroids."
+"Where ensemble techniques might be useful ?","Ensemble techniques use a combination of learning algorithms to optimize better predictive performance. They typically reduce overfitting in models and make the model more robust (unlikely to be influenced by small changes in the training data). 
+You could list some examples of ensemble methods, from bagging to boosting to a “bucket of models” method and demonstrate how they could increase predictive power."
+"What is feature forward selection ?",""
+"What is feature backward selection ?",""
+"What is type 1 & type 2 error ?","type 1 errors are commonly referred to as “false positives”, type 2 errors are referred to as “false negatives”. Type 2 errors happen when you inaccurately assume that no winner has been declared between a control version and a variation although there actually is a winner. "
+"What is multicollinearity ?",""
+"What is eigenvalue & eigenvectors ?",""
+"What is A/B testing",""
+"How to split data which has temporal nature.",""
+"What is response encoding of categorical features ?",""
+"What is the binning of continuous random variables.","Binning refers to dividing a list of continuous variables into groups. It is done to discover set of patterns in continuous variables, which are difficult to analyze otherwise. Also, bins are easy to analyze and interpret. But, it also leads to loss of information and loss of power. Once the bins are created, the information gets compressed into groups which later affects the final model. Hence, it is advisable to create small bins initially."
+"Regularization parameter in dual form of SVM ?",""
+"What is the difference between sigmoid and softmax ?",""
 "For a binary classification which among the following cannot be the last layer ? 
 a. sigmoid(1) 
 b. sigmoid(2) 
 c. softmax(1) 
-d. softmax(2)"
-What is P-value in hypothesis testing ?
-How to check if a particular sample follows a distribution or not ?
-What is the difference between covariance and correlation ?
+d. softmax(2)",""
+"What is P-value in hypothesis testing ?","It is defined as the probability of getting a result that is either the same or more extreme than the actual observations. The P-value is known as the level of marginal significance within the hypothesis testing that represents the probability of occurrence of the given event. The P-value is used as an alternative to the rejection point to provide the least significance at which the null hypothesis would be rejected. If the P-value is small, then there is stronger evidence in favour of the alternative hypothesis."
+"How to check if a particular sample follows a distribution or not ?",""
+"What is the difference between covariance and correlation ?",""
 "On what basis would you choose agglomerative clustering over k means clustering 
-and vice versa ?"
-What is the metric that we use to evaluate unsupervised models.
-What is the difference between model parameters and hyper parameters ?
+and vice versa ?",""
+"What is the metric that we use to evaluate unsupervised models.",""
+"What is the difference between model parameters and hyper parameters ?",""
 "Number of parameters in LSTM is 4m(m+n+1). How many number of parameters do 
-we have in GRU ?"
-What is box cox transform? When can it be used ?
-In what format should the data be sent to embedding layer?
-What does trainable = true/false mean in embedding layer ?
-What happens when we set return sequence = true in LSTM ?
-Why are RNN’S and CNN’S called weight shareable layers ?
+we have in GRU ?",""
+"What is box cox transform? When can it be used ?",""
+"In what format should the data be sent to embedding layer?",""
+"What does trainable = true/false mean in embedding layer ?",""
+"What happens when we set return sequence = true in LSTM ?","It is set to TRUE to access hidden cell state output for each time steps. It will return one hidden state output for each input time step for the single LSTM cell in the layer. must set return_sequences=True when stacking LSTM layers so that the second LSTM layer has a three-dimensional sequence input."
+"Why are RNN’S and CNN’S called weight shareable layers ?",""
 "What happens during the fit and transform of following modules ? 
 a. Standard scaler 
 b. Count vectorizer 
-c. PCA"
-Can we use t-sne for transforming test data ? if not why ?
-Find the sum of diagonals in the numpy array ?
-Write the code to get the count of row for each category in the dataframes.
-Difference between categorical cross entropy and binary cross entropy.
+c. PCA",""
+"Can we use t-sne for transforming test data ? if not why ?",""
+"Find the sum of diagonals in the numpy array ?",""
+"Write the code to get the count of row for each category in the dataframes.",""
+"Difference between categorical cross entropy and binary cross entropy.",""
 "When you use w2v for test factorization, and we each sentence is having different 
-words how can you forward data into models ?"
-What is tf idf weighted w2v ?
-How to you use weighted distance in content based recommendation ?
-What is the time complexity of SVD decomposition ?
+words how can you forward data into models ?",""
+"What is tf idf weighted w2v ?",""
+"How to you use weighted distance in content based recommendation ?",""
+"What is the time complexity of SVD decomposition ?",""
 "What is the difference between content based recommendation and collaborative 
-recommendation ?"
-Why do you think inertia actually works in choosing elbow point in clustering ?
-What is gradient clipping ?
+recommendation ?",""
+"Why do you think inertia actually works in choosing elbow point in clustering ?",""
+"What is gradient clipping ?",""
 "Which of these layers will be a better option as a last layer in multilabel classification 
 ? 
 a. Sigmoid 
-b. Softmax"
-Is there a relation or similarity between LSTM and RESNET ?
-What are the values returned by np.histogram()
-"What is PDF, can we calculate PDF for discrete distribution ?"
-Can the range of CDF be (0.5 - 1.5 ).
+b. Softmax",""
+"Is there a relation or similarity between LSTM and RESNET ?",""
+"What are the values returned by np.histogram()",""
+"What is PDF, can we calculate PDF for discrete distribution ?",""
+"Can the range of CDF be (0.5 - 1.5 ).",""
 "Number of parameters in the following network : 
 a. Number of neurons = 4 
 b. Problem = binary classification 
 c. no: of FC = 2 
 d. Neurons in 1st FC = 5 
-e. Neurons in 2nd FC = 3"
+e. Neurons in 2nd FC = 3",""
 "How do we interpret alpha in dual form of sum? What is the relation between C and 
-Alpha?"
-How does back propagation work in case of LSTM?
-What is the difference between supervised and unsupervised models?
-What is the derivative of this fraction 1/(1+e^sinx).
-"What will be the output of a = [1 2 3 10], [4 5 6 11], [7 8 9 12] a[:,:-1]"
-"What is the output of this a = [1 5 9],[2 6 10],[3 7 11],[4 8 12] a[:-2,:]"
+Alpha?",""
+"How does back propagation work in case of LSTM?",""
+"What is the difference between supervised and unsupervised models?",""
+"What is the derivative of this fraction 1/(1+e^sinx).",""
+"What will be the output of a = [1 2 3 10], [4 5 6 11], [7 8 9 12] a[:,:-1]",""
+"What is the output of this a = [1 5 9],[2 6 10],[3 7 11],[4 8 12] a[:-2,:]",""
 "What will be the output of 
 a. a= dict() 
 b. a[(‘a’,’b’)] = 0 
 c. a[(a,b)] = 1 
-d. print(a)"
+d. print(a)",""
 "What will be the output of 
 a. a = [1 2 3],[4 5 6],[7 8 9] 
-b. np.mean( a,axis=1)"
+b. np.mean( a,axis=1)",""
 "What will be the output of 
 a. a =[3 4 5],[6 7 8],[9 10 11] 
 b. b = [1 2 3],[4 5 6],[7 8 9] 
-c. np.stack( (a,b), axis= 0)"
-What is “local outlier factor”?
-How RANSAC works?
-What are jaccard & Cosine Similarities
-What are assumptions of Pearson correlation ?
-Differences between Pearson and Spearman correlation?
-What is the train time complexity of DBSCAN?
-Explain the procedure of “prediction in hierarchical clustering”
-Relation between knn and kernel SVM
-Proof of “convergence of kmeans”
-" What is the optimal value of minpoints for the data (1000, 50)"
-How is eigenvector different from other general vectors ?
+c. np.stack( (a,b), axis= 0)",""
+"What is “local outlier factor”?",""
+"How RANSAC works?",""
+"What are jaccard & Cosine Similarities",""
+"What are assumptions of Pearson correlation ?","The assumptions are as follows: level of measurement, related pairs, absence of outliers, and linearity."
+"Differences between Pearson and Spearman correlation?",""
+"What is the train time complexity of DBSCAN?",""
+"Explain the procedure of “prediction in hierarchical clustering”",""
+"Relation between knn and kernel SVM",""
+"Proof of “convergence of kmeans”","mathematical statistics - Proof of convergence of k-means - Cross Validated (stackexchange.com)"
+" What is the optimal value of minpoints for the data (1000, 50)",""
+"How is eigenvector different from other general vectors ?",""

@@ -17,8 +17,12 @@ def hello():
 def get_question(_type):
     if not _type:
         rand_int=np.random.randint(1,len(df))
-        resp={"result":df.iloc[rand_int,0]}
+        if df.iloc[rand_int,1] is np.nan:
+            resp = {"result": df.iloc[rand_int, 0],"ans":"Not Answered Yet!!"}
+        else:
+            resp={"result":df.iloc[rand_int,0],"ans":df.iloc[rand_int,1]}
         time.sleep(1)
+        # print(resp)
         return jsonify(resp),200
     else:
         rand_int = np.random.randint(1, len(df2))
