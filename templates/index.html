@@ -78,7 +78,7 @@
     $.getJSON("/get_question/"+0,function(data) {
         $("#attempted").text(mock);
         $("#question").text(data.result);
-        $("#ans_panel").text(data.ans);
+        $("#ans_panel").html(data.ans);
 
       });
     }
@@ -87,7 +87,7 @@
         revision=revision+1;
         $("#attempted").text(revision);
         $("#question").text(data.result);
-        $("#ans_panel").text(data.ans);
+        $("#ans_panel").html(data.ans);
       });
     }
   }
@@ -102,7 +102,7 @@
         $.getJSON("/get_question/"+0,function(data) {
         $("#attempted").text(mock);
         $("#question").text(data.result);
-        $("#ans_panel").text(data.ans);
+        $("#ans_panel").html(data.ans);
 
       });
     } else {
@@ -110,7 +110,7 @@
         $.getJSON("/get_question/"+1,function(data) {
         $("#attempted").text(revision);
         $("#question").text(data.result);
-         $("#ans_panel").text(data.ans);
+         $("#ans_panel").html(data.ans);
       });
     }
 
