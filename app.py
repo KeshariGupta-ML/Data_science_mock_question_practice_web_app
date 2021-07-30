@@ -7,6 +7,7 @@ import warnings
 # warnings.filterwarnings(action="ignore")
 app = Flask(__name__)
 df=pd.read_excel("assets/mock_interview_questions.xls",header=0)
+# df2=pd.read_excel("assets/AppliedAI_revision.xls",header=0)
 df2=pd.read_csv("assets/AppliedAI_revision.csv",header=0)
 
 @app.route('/')
@@ -26,6 +27,7 @@ def get_question(_type):
         return jsonify(resp),200
     else:
         rand_int = np.random.randint(1, len(df2))
+        print("++++",rand_int)
         # print(df2.iloc[rand_int, 0].split(r"\t")[1].strip())
         resp = {"result": df2.iloc[rand_int, 0].split(r"\t")[0],"ans":df2.iloc[rand_int, 0].split(r"\t")[1].strip(" )(")}
         time.sleep(1)
