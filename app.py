@@ -34,6 +34,7 @@ def get_question(_type):
         # print(resp)
         return jsonify(resp), 200
 
+
 if __name__=="__main__":
     # app.run("localhost","2100",debug=True)
     app.run()
